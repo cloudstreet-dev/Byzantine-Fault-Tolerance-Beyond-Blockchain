@@ -1,0 +1,33 @@
+[book]
+title = "Byzantine Fault Tolerance Beyond Blockchain"
+authors = ["David Liedle"]
+description = "Paxos, Raft, PBFT, Viewstamped Replication, HotStuff — the consensus algorithms that aren't blockchain. Real tradeoffs, real math, no hype."
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/cloudstreet-dev/Byzantine-Fault-Tolerance-Beyond-Blockchain"
+edit-url-template = "https://github.com/cloudstreet-dev/Byzantine-Fault-Tolerance-Beyond-Blockchain/edit/main/{path}"
+site-url = "/Byzantine-Fault-Tolerance-Beyond-Blockchain/"
+mathjax-support = true
+
+[output.html.search]
+enable = true
+limit-results = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
+
+[output.html.fold]
+enable = true
+level = 1
